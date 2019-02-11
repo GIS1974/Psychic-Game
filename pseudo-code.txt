@@ -1,0 +1,35 @@
+1. Create variables and set them to zero:
+var winsCount = 0;
+var lossesCount = 0;
+var guessesLeft = 9;
+---var guessesSoFar = 0;---
+
+Log variales value to console.
+
+2. Generate random alphabet letter from 'a' to 'z'.
+var randomLetter = randomly generated letter.
+
+Log randomLetter to console.
+
+3. Listen to the keyboard input. Show this letter in a string "Your Guesses so far".
+After evey keyboard click:
+guessesLeft -=1;
+guessesSoFar =++;
+var userLetter = user typed letter;
+
+Log variables to console.
+
+4. Until guessesLeft > 0
+If userLetter = randomLetter -- user wins:
+winsCount =++
+clear "Your Guesses so far"
+
+else
+
+computer wins
+lossesCount =++;
+clear "Your Guesses so far".
+
+
+
+
