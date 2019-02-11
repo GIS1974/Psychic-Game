@@ -1,3 +1,5 @@
+/* coded by Igor Guba */
+
 var letters = "abcdefghijklmnopqrstuvwxyz";
 var winsCount = 0;
 var lossesCount = 0;
