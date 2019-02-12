@@ -11,7 +11,7 @@ function computerGuess() {
     return randomLetter;
 }
 
-document.getElementById("guesses-left").textContent = " " + guessesLeft; //
+document.getElementById("guesses-left").textContent = " " + guessesLeft; 
 
 randomLetter = computerGuess();
 console.log("random letter: " + randomLetter);
@@ -48,8 +48,8 @@ document.onkeyup = function (event) {
             guessesLeft = 9;
             lossesCount++;
             document.getElementById("guesses-so-far").textContent = " ";
-            document.getElementById("losses").textContent = lossesCount;
-            document.getElementById("guesses-left").textContent = "9";
+            document.getElementById("losses").textContent = " " + lossesCount;
+            document.getElementById("guesses-left").textContent = " 9";
             console.log("Loss!");
             randomLetter = computerGuess();
             console.log("random letter: " + randomLetter);
